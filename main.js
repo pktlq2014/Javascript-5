@@ -416,6 +416,24 @@ box1.innerText = "<h1>AAA</h1>";
 box2.innerHTML = "<h1>AAA</h1>";
 
 
+var a = [1, 2 ,3];
+var b = [4, 5, 6];
+var c = [7, 8, 9];
+var f = [];
+var str;
+console.log("||||||||||||||");
+for(var i = 0; i < a.length; i++) {
+    for(var j = 0; j < b.length; j++) {
+        for(var k = 0; k < c.length; k++) {
+            var e = [a[i], b[j], c[k]];
+            f.push(e);
+        }
+    }
+}
+console.log(f);
+
+
+
 
 
 //                                      DATE 
