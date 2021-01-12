@@ -1,3 +1,8 @@
+// những hàm được return không nhất thiết phải return, để bình thường vẫn được
+// nếu không có return thì nên dùng forEach, return thì dùng map, tính toán thì nên dùng reduce
+
+
+
 // chèn vào đầu, giữa, cuối dùng: splice (còn có thể dùng để xóa)
 // -> giá trị xóa và thêm bao nhiêu cũng được, chứ không nhất thiết phải 1
 
